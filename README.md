@@ -1,0 +1,1 @@
+how components, props and state work specifically in this app:
