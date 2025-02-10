@@ -1,1 +1,3 @@
-how components, props and state work specifically in this app:
+how components, props and state work in Tic Tac Toe app:
+
+Components are a piece of reusable code that represent a part of an user interface, they are used to render, manage, and update the UI elements in our application. In this app, each part of the Tic Tac Toe game is broken into separate components: Square, Board, Game, and calculateWinner. Props are used to pass data between components (ex: squares array being passed to Board, which returns a 3x3 of the Square component). State changes the app (history/past game data & currentMove, using useState), once a player clicks a button, the state is updated with a new game-move entry, which also allows the player to move back in time/progress or the computer to determine who wins.
